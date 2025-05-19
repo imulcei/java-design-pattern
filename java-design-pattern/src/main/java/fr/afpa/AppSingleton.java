@@ -1,11 +1,11 @@
 package fr.afpa;
 
-import fr.afpa.model.PasswordVault;
+import fr.afpa.singleton.PasswordVault;
 
 /**
  * Hello world!
  */
-public class App {
+public class AppSingleton {
     public static void main(String[] args) {
         PasswordVault passwordVault = PasswordVault.getInstance();
         passwordVault.addPassword("Gmail", "Soleil123");

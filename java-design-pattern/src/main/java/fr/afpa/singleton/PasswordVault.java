@@ -1,4 +1,4 @@
-package fr.afpa.model;
+package fr.afpa.singleton;
 
 import java.util.HashMap;
 

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>119</x>
+      <y>392</y>
+      <w>147</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>/PizzaFactory/
+--
+
++create()
+/+createPizza() : Pizza/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>28</x>
+      <y>574</y>
+      <w>147</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>MargaritaFactory
+--
+
++create() : Pizza</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>210</x>
+      <y>574</y>
+      <w>147</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>ReginaFactory
+--
+
++create() : Pizza</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>91</x>
+      <y>518</y>
+      <w>98</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;10.0;120.0;40.0;10.0;40.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>518</y>
+      <w>91</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0;110.0;40.0;110.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>448</x>
+      <y>238</y>
+      <w>147</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;INTERFACE&gt;&gt;
+Pizza
+--
+
++prepare() : void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>357</x>
+      <y>364</y>
+      <w>147</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>Margarita
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>546</x>
+      <y>364</y>
+      <w>147</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>Regina
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>259</x>
+      <y>273</y>
+      <w>203</w>
+      <h>203</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+  &lt;&lt;Instantiates&gt;&gt;</panel_attributes>
+    <additional_attributes>270.0;10.0;70.0;10.0;70.0;270.0;10.0;270.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>546</x>
+      <y>308</y>
+      <w>84</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0;100.0;40.0;100.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>308</y>
+      <w>84</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>100.0;10.0;100.0;40.0;10.0;40.0;10.0;80.0</additional_attributes>
+  </element>
+</diagram>
